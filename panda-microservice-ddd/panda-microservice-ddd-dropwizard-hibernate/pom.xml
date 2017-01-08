@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>panda-microservice-ddd</artifactId>
+        <groupId>org.openpanda.microservice</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>panda-microservice-ddd-dropwizard-hibernate</artifactId>
+
+
+    <name>Panda Microservice DDD Dropwizard Hibernate</name>
+    <description>Panda Microservice DDD Dropwizard 扩展</description>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-hibernate</artifactId>
+        </dependency>
+
+        <!-- 依赖 Panda DOMAIN -->
+        <dependency>
+            <groupId>org.openpanda.pandalib</groupId>
+            <artifactId>pandalib-ddd-domain</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <!-- 依赖 DDD GUICE -->
+        <dependency>
+            <groupId>org.dayatang.dddlib</groupId>
+            <artifactId>dddlib-ioc-guice</artifactId>
+        </dependency>
+
+        <!-- 依赖 DDD Hibernate-->
+        <dependency>
+            <groupId>org.dayatang.dddlib</groupId>
+            <artifactId>dddlib-persistence-hibernate</artifactId>
+        </dependency>
+
+        <!-- 依赖 DDD QueryChannel-->
+        <dependency>
+            <groupId>org.dayatang.dddlib</groupId>
+            <artifactId>dddlib-query-channel</artifactId>
+        </dependency>
+
+        <!-- 服务注册与查找实现 -->
+        <dependency>
+            <groupId>org.openpanda.pandalib</groupId>
+            <artifactId>pandalib-cloud-register</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+
+    </dependencies>
+
+</project>

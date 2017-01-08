@@ -10,3 +10,12 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+.idea
+*/target/**
+*/target/**
+panda-microservice-cloud/panda-microservice-cloud-api/target
+panda-microservice-cloud/panda-microservice-cloud-etcd/target
+panda-microservice-ddd/panda-microservice-ddd-domain/target
+panda-microservice-ddd/panda-microservice-ddd-dropwizard-hibernate/target
+panda-microservice-ddd/panda-microservice-ddd-rule/target
+panda-microservice-ddd/panda-microservice-ddd-test-support/target
