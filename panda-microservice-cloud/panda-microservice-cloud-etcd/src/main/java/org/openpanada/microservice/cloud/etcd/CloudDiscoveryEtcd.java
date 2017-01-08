@@ -5,10 +5,10 @@ import org.boon.etcd.Etcd;
 import org.boon.etcd.Node;
 import org.boon.etcd.Response;
 import org.openpanada.microservice.cloud.etcd.choice.CloudChoiceWeightForEtcd;
-import org.openpanda.pandalib.cloud.choice.CloudChoice;
-import org.openpanda.pandalib.cloud.discovery.CloudDiscoverListener;
-import org.openpanda.pandalib.cloud.discovery.CloudDiscovery;
-import org.openpanda.pandalib.cloud.model.CloudMember;
+import org.openpanda.microservice.cloud.choice.CloudChoice;
+import org.openpanda.microservice.cloud.discovery.CloudDiscoverListener;
+import org.openpanda.microservice.cloud.discovery.CloudDiscovery;
+import org.openpanda.microservice.cloud.model.CloudMember;
 
 import java.net.URI;
 import java.util.List;

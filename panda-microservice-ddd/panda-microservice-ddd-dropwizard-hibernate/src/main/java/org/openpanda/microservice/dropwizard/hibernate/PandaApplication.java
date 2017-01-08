@@ -16,7 +16,7 @@ import org.dayatang.persistence.hibernate.EntityRepositoryHibernate;
 import org.dayatang.querychannel.QueryChannelService;
 import org.dayatang.querychannel.impl.QueryChannelServiceImpl;
 import org.hibernate.SessionFactory;
-import org.openpanda.pandalib.cloud.resiger.CloudRegister;
+import org.openpanda.microservice.cloud.resiger.CloudRegister;
 
 import java.util.List;
 import java.util.Map;

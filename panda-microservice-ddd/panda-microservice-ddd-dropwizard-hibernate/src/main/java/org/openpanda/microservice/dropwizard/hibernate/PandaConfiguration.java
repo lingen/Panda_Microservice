@@ -3,7 +3,7 @@ package org.openpanda.microservice.dropwizard.hibernate;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import io.dropwizard.Configuration;
 import io.dropwizard.db.DataSourceFactory;
-import org.openpanda.pandalib.cloud.model.CloudMember;
+import org.openpanda.microservice.cloud.model.CloudMember;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotNull;

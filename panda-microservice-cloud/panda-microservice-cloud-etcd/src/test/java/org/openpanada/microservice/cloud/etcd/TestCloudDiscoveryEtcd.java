@@ -3,10 +3,10 @@ package org.openpanada.microservice.cloud.etcd;
 import org.boon.core.Sys;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.openpanda.pandalib.cloud.discovery.CloudDiscovery;
-import org.openpanda.pandalib.cloud.model.CloudMember;
-import org.openpanda.pandalib.cloud.model.CloudMemberBuilder;
-import org.openpanda.pandalib.cloud.resiger.CloudRegister;
+import org.openpanda.microservice.cloud.discovery.CloudDiscovery;
+import org.openpanda.microservice.cloud.model.CloudMember;
+import org.openpanda.microservice.cloud.model.CloudMemberBuilder;
+import org.openpanda.microservice.cloud.resiger.CloudRegister;
 
 import java.util.Timer;
 import java.util.TimerTask;

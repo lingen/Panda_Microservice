@@ -28,8 +28,8 @@
 
         <!-- 依赖 Panda DOMAIN -->
         <dependency>
-            <groupId>org.openpanda.pandalib</groupId>
-            <artifactId>pandalib-ddd-domain</artifactId>
+            <groupId>org.openpanda.microservice</groupId>
+            <artifactId>panda-microservice-ddd-domin</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
 
@@ -53,8 +53,8 @@
 
         <!-- 服务注册与查找实现 -->
         <dependency>
-            <groupId>org.openpanda.pandalib</groupId>
-            <artifactId>pandalib-cloud-register</artifactId>
+            <groupId>org.openpanda.microservice</groupId>
+            <artifactId>panda-microservice-cloud-api</artifactId>
             <version>${project.parent.version}</version>
         </dependency>
 

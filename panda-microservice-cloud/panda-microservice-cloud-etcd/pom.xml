@@ -30,11 +30,10 @@
             <artifactId>gson</artifactId>
         </dependency>
 
-
         <dependency>
-            <groupId>org.openpanda.pandalib</groupId>
-            <artifactId>pandalib-cloud-register</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>org.openpanda.microservice</groupId>
+            <artifactId>panda-microservice-cloud-api</artifactId>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
 

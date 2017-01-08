@@ -1,9 +1,9 @@
 package org.openpanada.microservice.cloud.etcd;
 
 import org.junit.Test;
-import org.openpanda.pandalib.cloud.model.CloudMember;
-import org.openpanda.pandalib.cloud.model.CloudMemberBuilder;
-import org.openpanda.pandalib.cloud.resiger.CloudRegister;
+import org.openpanda.microservice.cloud.model.CloudMember;
+import org.openpanda.microservice.cloud.model.CloudMemberBuilder;
+import org.openpanda.microservice.cloud.resiger.CloudRegister;
 
 /**
  * Created by lingen on 2017/1/7.

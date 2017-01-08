@@ -109,7 +109,7 @@
     <orderEntry type="library" name="Maven: javax.el:el-api:2.2" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.spec.javax.interceptor:jboss-interceptors-api_1.1_spec:1.0.0.Beta1" level="project" />
     <orderEntry type="library" name="Maven: javax.annotation:jsr250-api:1.0" level="project" />
-    <orderEntry type="library" name="Maven: org.openpanda.pandalib:pandalib-ddd-domain:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="panda-microservice-ddd-domain" />
     <orderEntry type="library" name="Maven: org.dayatang.dddlib:dddlib-domain:5.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: org.dayatang.dddlib:dddlib-utils:5.0.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.0" level="project" />
@@ -129,6 +129,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-jdbc:4.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-tx:4.3.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.9" level="project" />
-    <orderEntry type="library" name="Maven: org.openpanda.pandalib:pandalib-cloud-register:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="panda-microservice-cloud-api" />
   </component>
 </module>

@@ -25,6 +25,6 @@
     <orderEntry type="library" name="Maven: io.vertx:vertx-platform:2.1.2" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-all:1.3" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.0" level="project" />
-    <orderEntry type="library" name="Maven: org.openpanda.pandalib:pandalib-cloud-register:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="panda-microservice-cloud-api" />
   </component>
 </module>

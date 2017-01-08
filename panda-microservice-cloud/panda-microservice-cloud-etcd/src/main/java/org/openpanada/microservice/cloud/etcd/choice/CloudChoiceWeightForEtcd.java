@@ -4,8 +4,8 @@ import com.google.gson.Gson;
 import org.boon.etcd.Etcd;
 import org.boon.etcd.Node;
 import org.boon.etcd.Response;
-import org.openpanda.pandalib.cloud.choice.CloudChoice;
-import org.openpanda.pandalib.cloud.model.CloudMember;
+import org.openpanda.microservice.cloud.choice.CloudChoice;
+import org.openpanda.microservice.cloud.model.CloudMember;
 
 import java.util.List;
 

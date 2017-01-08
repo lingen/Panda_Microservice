@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>panda-microservice-cloud-register</artifactId>
+    <artifactId>panda-microservice-cloud-api</artifactId>
     <name>Panda Microservice Cloud Register</name>
     <description>Panda Microservice Cloud云服务注册模块</description>
 

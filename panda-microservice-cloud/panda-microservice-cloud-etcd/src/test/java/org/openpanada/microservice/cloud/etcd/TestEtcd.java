@@ -6,8 +6,8 @@ import org.boon.etcd.ClientBuilder;
 import org.boon.etcd.Etcd;
 import org.boon.etcd.Response;
 import org.junit.Test;
-import org.openpanda.pandalib.cloud.model.CloudMember;
-import org.openpanda.pandalib.cloud.model.CloudMemberBuilder;
+import org.openpanda.microservice.cloud.model.CloudMember;
+import org.openpanda.microservice.cloud.model.CloudMemberBuilder;
 
 import java.net.URI;
 

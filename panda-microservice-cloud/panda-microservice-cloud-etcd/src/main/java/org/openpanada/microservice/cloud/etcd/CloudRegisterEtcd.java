@@ -5,9 +5,9 @@ import org.boon.core.Sys;
 import org.boon.etcd.ClientBuilder;
 import org.boon.etcd.Etcd;
 import org.boon.etcd.Response;
-import org.openpanda.pandalib.cloud.PandaCloudException;
-import org.openpanda.pandalib.cloud.model.CloudMember;
-import org.openpanda.pandalib.cloud.resiger.CloudRegister;
+import org.openpanda.microservice.cloud.PandaCloudException;
+import org.openpanda.microservice.cloud.model.CloudMember;
+import org.openpanda.microservice.cloud.resiger.CloudRegister;
 
 import java.net.URI;
 
