@@ -19,3 +19,4 @@ panda-microservice-ddd/panda-microservice-ddd-domain/target
 panda-microservice-ddd/panda-microservice-ddd-dropwizard-hibernate/target
 panda-microservice-ddd/panda-microservice-ddd-rule/target
 panda-microservice-ddd/panda-microservice-ddd-test-support/target
+target/
