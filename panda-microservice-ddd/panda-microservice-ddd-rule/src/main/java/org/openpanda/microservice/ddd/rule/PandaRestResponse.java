@@ -7,22 +7,22 @@ import java.io.Serializable;
  */
 public class PandaRestResponse implements Serializable {
 
-    private String responseCode;
+    private String response;
 
-    private String description;
+    private String msg;
 
-    public static PandaRestResponse createInstance(String errorCode, String description){
+    public static PandaRestResponse createInstance(String response, String msg){
         PandaRestResponse pandaRestResponse = new PandaRestResponse();
-        pandaRestResponse.responseCode = errorCode;
-        pandaRestResponse.description = description;
+        pandaRestResponse.response = response;
+        pandaRestResponse.msg = msg;
         return pandaRestResponse;
     }
 
-    public String getResponseCode() {
-        return responseCode;
+    public String getResponse() {
+        return response;
     }
 
-    public String getDescription() {
-        return description;
+    public String getMsg() {
+        return msg;
     }
 }
