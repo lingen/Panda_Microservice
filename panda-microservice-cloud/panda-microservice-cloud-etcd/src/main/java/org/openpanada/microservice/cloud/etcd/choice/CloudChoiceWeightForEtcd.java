@@ -26,14 +26,14 @@ public class CloudChoiceWeightForEtcd implements CloudChoice {
     @Override
     public CloudMember choice() {
         double min = (double) Integer.MAX_VALUE;
-        CloudMember selectedCloundMember = null;
+        CloudMember selectedCloudMember = null;
 
         for (Node node:nodes){
             String value = node.getValue();
-            CloudMember cloundMember = new Gson().fromJson(value,CloudMember.class);
+            CloudMember cloudMember = new Gson().fromJson(value,CloudMember.class);
 
             //find the cloud member's caller number
-            Response callResponse = etcdClient.list(cloundMember.callerKey());
+            Response callResponse = etcdClient.list(cloudMember.callerKey());
 
             int num = 0;
             if (callResponse.successful()){
@@ -43,14 +43,14 @@ public class CloudChoiceWeightForEtcd implements CloudChoice {
                 }
             }
 
-            double countWithWeight = (double)num / cloundMember.getWeight();
+            double countWithWeight = (double)num / cloudMember.getWeight();
             if (countWithWeight < min){
                 min = countWithWeight;
-                selectedCloundMember = cloundMember;
+                selectedCloudMember = cloudMember;
             }
         }
 
-        return selectedCloundMember;
+        return selectedCloudMember;
     }
 
 
